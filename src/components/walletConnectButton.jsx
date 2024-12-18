@@ -69,8 +69,6 @@ function WalletConnectButton() {
       } catch (error) {
         console.error("Erro ao conectar a MetaMask:", error);
       }
-    } else {
-      console.log("MetaMask não detectado");
     }
   };
 
